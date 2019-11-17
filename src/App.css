@@ -28,7 +28,7 @@
 }
 
 .about {
-    height: 60vh;
+    min-height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,10 +37,52 @@
 }
 
 .about-row {
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.about-pics {
+    display: flex;
+    flex-direction: row;
+    width:60%;
+}
+
+.about-text .section-flag {
+    color: #00BCD4;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.about-pics > .bedroom-img {
+    margin-right: 1em;
+}
+
+.big-title {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bedroom-img {
+    max-width: 350px;
+}
+
+.bedroom-img img {
+    border-radius: 5px;
+    height: auto;
+    max-width: 100%;
 }
 
 /* Media queries */
@@ -50,6 +92,19 @@
         font-size: 6.5vh;
         padding-left:1em;
         padding-right:1em;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-pics {
+        margin-top: 1em;
+        flex-direction: column;
+    }
+
+    .about-text, .about-pics {
+        width: 100%;
     }
 }
 
