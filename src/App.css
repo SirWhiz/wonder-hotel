@@ -122,7 +122,7 @@
 
     .big-text-about {
         text-align: center;
-        width: 100%;
+        width: 90%;
         margin-bottom: 1.5em;
     }
 
@@ -139,6 +139,9 @@
 
     .about-pics > .bedroom-img {
         margin-bottom: 1.5em;
+        margin-right: 0;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
 
