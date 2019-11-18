@@ -28,15 +28,18 @@
 }
 
 .about {
-    min-height: 70vh;
+    min-height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .about-row {
+    width:80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -56,14 +59,22 @@
     display: flex;
     flex-direction: row;
     width:60%;
+    justify-content: space-evenly;
 }
 
 .about-text .section-flag {
     color: #00BCD4;
     width: 100%;
-    text-align: left;
+    text-align: right;
     display: block;
     margin-bottom: 1em;
+}
+
+.big-text-about {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 2em;
+    text-align: right;
 }
 
 .about-pics > .bedroom-img {
@@ -71,8 +82,12 @@
 }
 
 .big-title {
-    font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #1F1F1F;
+    text-align: right;
 }
 
 .bedroom-img {
@@ -87,20 +102,51 @@
 
 /* Media queries */
 
-@media screen and (max-width: 1024px) {
-    .cta-title {
-        font-size: 6.5vh;
-        padding-left:1em;
-        padding-right:1em;
-    }
-
+@media screen and (max-width: 1400px) {
     .about-row {
         flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-flag {
+        text-align: center !important;
+    }
+
+    .big-title {
+        font-size: 3vh;
+        text-align: center;
+        width:100%;
+    }
+
+    .big-text-about {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .about-text {
+        padding: 0;
     }
 
     .about-pics {
         margin-top: 1em;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-pics > .bedroom-img {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cta-title {
+        font-size: 6.5vh;
+        padding-left:1em;
+        padding-right:1em;
     }
 
     .about-text, .about-pics {
