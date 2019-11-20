@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/header/header';
 import About from './components/about/About';
+import Offers from './components/offers/Offers';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
       </div>
       <About/>
+      <Offers/>
     </div>
   );
 }
