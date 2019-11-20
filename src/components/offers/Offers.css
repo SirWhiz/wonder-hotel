@@ -51,6 +51,32 @@
     color: #1F1F1F;
 }
 
+.offer-content {
+    width: 22em;
+    min-height: 100px;
+    text-align: center;
+    margin-top: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offer-item > button {
+    border: 0;
+    padding: 1em 2em;
+    width: 50%;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #00BCD4;
+    color:#00BCD4;
+}
+
+.offer-item > button:hover {
+    background-color: #00BCD4;
+    color:#FFF;
+    transition: all 0.3s;
+}
+
 .offer-img-container {
     max-width: 350px;
 }
@@ -79,5 +105,9 @@
         font-size: 3vh;
         text-align: center;
         width:100%;
+    }
+
+    .offer-item > button {
+        width: 80%;
     }
 }
