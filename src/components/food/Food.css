@@ -1,0 +1,124 @@
+.food {
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.food-row {
+    padding-top:2em;
+    padding-bottom:2em;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.food-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.food-section {
+    color: #00BCD4;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.food-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #1F1F1F;
+    text-align: left;
+    width: 100%;
+}
+
+.food-big-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.food-images {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-img-container {
+    max-width: 350px;
+    margin-left: 1em;
+}
+
+.food-img-container img {
+    border-radius: 5px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px) {
+    .food-row {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .food-section {
+        text-align: center !important;
+    }
+
+    .food-title {
+        font-size: 3vh;
+        text-align: center;
+        width:100%;
+    }
+
+    .food-big-text {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 1.5em;
+    }
+
+    .food-text {
+        padding: 0;
+    }
+
+    .food-images {
+        margin-top: 1em;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .food-images > .food-img-container {
+        margin-bottom: 1.5em;
+        margin-right: 0;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .food-text, .food-images {
+        width: 100%;
+    }
+}

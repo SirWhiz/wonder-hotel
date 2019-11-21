@@ -12,9 +12,10 @@ function About() {
                     <span className="section-flag">About Us</span>
                     <span className="big-title">A Luxurious place in the heart of America</span>
                     <div className="big-text-about">
-                    Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare dapibus
-                    enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim. 
-                    Dapibus lorem feugiat facilisi faucibus et. Rhoncus.
+                        Suscipit libero pretium nullam potenti. Interdum, blandit phasellus 
+                        consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus 
+                        sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim. 
+                        Dapibus lorem feugiat facilisi faucibus et. Rhoncus.
                     </div>
                 </div>
                 <div className="about-pics">

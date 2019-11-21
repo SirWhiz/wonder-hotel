@@ -5,6 +5,7 @@
     min-height: 50vh;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .offers-title {
@@ -78,7 +79,7 @@
 }
 
 .offer-img-container {
-    max-width: 350px;
+    max-width: 250px;
 }
 
 .offer-img-container img {
@@ -88,7 +89,7 @@
 
 /* Media queries */
 
-@media screen and (max-width: 1350px) { 
+@media screen and (max-width: 1250px) { 
     .offers-container {
         flex-direction: column;
     }
