@@ -1,6 +1,10 @@
 import React from 'react';
 import './Offers.css';
 
+import card from '../../assets/master-card.jpg';
+import weekend from '../../assets/weekend.jpg';
+import members from '../../assets/members.jpg';
+
 function Offers() {
     
     return (
@@ -10,7 +14,7 @@ function Offers() {
             <div className="offers-container">
                 <div className="offer-item">
                     <div className="offer-img-container">
-                        <img src="https://via.placeholder.com/350/340" alt="Weekends discount"/>
+                        <img src={weekend} alt="Weekends discount"/>
                     </div>
                     <div className="offer-title">Up to 30% discount on Weekends</div>
                     <div className="offer-content">
@@ -21,7 +25,7 @@ function Offers() {
                 </div>
                 <div className="offer-item">
                     <div className="offer-img-container">
-                        <img src="https://via.placeholder.com/350/340" alt="Master Card discount"/>
+                        <img src={card} alt="Master Card discount"/>
                     </div>
                     <div className="offer-title">5% discount using Master Card</div>
                     <div className="offer-content">
@@ -32,7 +36,7 @@ function Offers() {
                 </div>
                 <div className="offer-item">
                     <div className="offer-img-container">
-                        <img src="https://via.placeholder.com/350/340" alt="Members discount"/>
+                        <img src={members} alt="Members discount"/>
                     </div>
                     <div className="offer-title">20% discount for our Members</div>
                     <div className="offer-content">
