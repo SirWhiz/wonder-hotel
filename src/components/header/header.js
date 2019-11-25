@@ -21,6 +21,10 @@ class Header extends Component {
         });
     }
 
+    componentWillUnmount(){
+        window.removeEventListener('scroll');
+    }
+
     render(){
         return (
             <div className={this.state.scrolled ? 'header scrolled' : 'header'}>
