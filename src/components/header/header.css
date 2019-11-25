@@ -4,6 +4,7 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 5em;
+    transition: 0.25s;
 }
 
 header div {
@@ -43,6 +44,16 @@ header div {
 .clickable {
     cursor: pointer;
     color:white;
+}
+
+.scrolled {
+    position: fixed;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.scrolled span {
+    color: black;
 }
 
 /* Media queries */
