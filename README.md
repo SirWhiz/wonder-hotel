@@ -3,7 +3,7 @@ Wonder Hotel is a front-end project based on a made up hotel. The purpose of thi
 
 ## Live demo:
 
-[Click here](https://sirwhiz.github.io/TwitchTV-pro-dashboard/#/) to see a live demo of the project
+[Click here](https://sirwhiz.github.io/wonder-hotel/) to see a live demo of the project
 
 ## Installation
 
