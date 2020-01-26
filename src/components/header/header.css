@@ -21,7 +21,25 @@ header div {
     display: inline-block;
     margin-right: 1em;
     color:white;
+    transition: 0.2s ease-in;
     font-family: 'Montserrat', sans-serif;
+}
+
+.header-menu span:hover {
+    color: #00BCD4;
+}
+
+.test {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1em;
+    color:white;
+    transition: 0.2s ease-in;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.test:hover {
+    color: #00BCD4;
 }
 
 .book-button button {
@@ -46,6 +64,14 @@ header div {
     color:white;
 }
 
+.main-color {
+    color: #00BCD4;
+}
+
+.logo-color {
+    color: #FFF;
+}
+
 .scrolled {
     position: fixed;
     background-color: #CFD8DC;
@@ -57,6 +83,11 @@ header div {
 
 .scrolled span {
     color: black;
+    transition: 0.2s ease-in;
+}
+
+.scrolled span:hover {
+    color: #00BCD4;
 }
 
 /* Media queries */
