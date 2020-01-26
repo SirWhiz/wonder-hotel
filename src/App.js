@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Offers from './components/offers/Offers';
 import Food from './components/food/Food';
 import Slider from './components/slider/Slider';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Offers/>
       <Food/>
       <Slider/>
+      <Contact/>
     </div>
   );
 }
