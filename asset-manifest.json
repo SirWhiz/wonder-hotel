@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/wonder-hotel/static/css/main.b7114db6.chunk.css",
+    "main.js": "/wonder-hotel/static/js/main.7881cd0a.chunk.js",
+    "main.js.map": "/wonder-hotel/static/js/main.7881cd0a.chunk.js.map",
+    "runtime-main.js": "/wonder-hotel/static/js/runtime-main.f24396e8.js",
+    "runtime-main.js.map": "/wonder-hotel/static/js/runtime-main.f24396e8.js.map",
+    "static/css/2.cd67af34.chunk.css": "/wonder-hotel/static/css/2.cd67af34.chunk.css",
+    "static/js/2.c2efad27.chunk.js": "/wonder-hotel/static/js/2.c2efad27.chunk.js",
+    "static/js/2.c2efad27.chunk.js.map": "/wonder-hotel/static/js/2.c2efad27.chunk.js.map",
+    "index.html": "/wonder-hotel/index.html",
+    "precache-manifest.8daeb092b0f781c6bf37a68082884951.js": "/wonder-hotel/precache-manifest.8daeb092b0f781c6bf37a68082884951.js",
+    "service-worker.js": "/wonder-hotel/service-worker.js",
+    "static/css/2.cd67af34.chunk.css.map": "/wonder-hotel/static/css/2.cd67af34.chunk.css.map",
+    "static/css/main.b7114db6.chunk.css.map": "/wonder-hotel/static/css/main.b7114db6.chunk.css.map",
+    "static/media/bedroom-bed.jpg": "/wonder-hotel/static/media/bedroom-bed.2cc279aa.jpg",
+    "static/media/bedroom.jpg": "/wonder-hotel/static/media/bedroom.8389df6a.jpg",
+    "static/media/fish.jpg": "/wonder-hotel/static/media/fish.8324a614.jpg",
+    "static/media/App.css": "/wonder-hotel/static/media/hotel-main.08e04e6a.jpg",
+    "static/media/master-card.jpg": "/wonder-hotel/static/media/master-card.77abf62e.jpg",
+    "static/media/meat.jpg": "/wonder-hotel/static/media/meat.3406cd9c.jpg",
+    "static/media/members.jpg": "/wonder-hotel/static/media/members.aea323e8.jpg",
+    "static/media/pool.jpg": "/wonder-hotel/static/media/pool.ad63f784.jpg",
+    "static/media/weekend.jpg": "/wonder-hotel/static/media/weekend.489d0ab6.jpg",
+    "static/media/wine.jpg": "/wonder-hotel/static/media/wine.650253c5.jpg",
+    "static/media/woman-bed.jpg": "/wonder-hotel/static/media/woman-bed.b649ab51.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f24396e8.js",
+    "static/css/2.cd67af34.chunk.css",
+    "static/js/2.c2efad27.chunk.js",
+    "static/css/main.b7114db6.chunk.css",
+    "static/js/main.7881cd0a.chunk.js"
+  ]
+}
