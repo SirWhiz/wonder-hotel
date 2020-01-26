@@ -1,0 +1,9 @@
+.aws-btn {
+    --organic-arrow-color: #00BCD4;
+    --slider-height-percentage: 35%;
+}
+
+.slider-container {
+    overflow: hidden;
+    margin-bottom: 2em;
+}

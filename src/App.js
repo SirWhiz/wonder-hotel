@@ -5,6 +5,7 @@ import Header from './components/header/header';
 import About from './components/about/About';
 import Offers from './components/offers/Offers';
 import Food from './components/food/Food';
+import Slider from './components/slider/Slider';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About/>
       <Offers/>
       <Food/>
+      <Slider/>
     </div>
   );
 }
