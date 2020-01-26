@@ -6,7 +6,7 @@ import bedroomBed from '../../assets/bedroom-bed.jpg';
 
 function About() {
     return(
-        <div className="about">
+        <div className="about" id="about">
             <div className="about-row">
                 <div className="about-text">
                     <span className="section-flag">About Us</span>

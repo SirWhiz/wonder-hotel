@@ -7,11 +7,12 @@ import Offers from './components/offers/Offers';
 import Food from './components/food/Food';
 import Slider from './components/slider/Slider';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <div className="main-pic">
+      <div className="main-pic" id="home">
         <Header/>
         <div className="call-to-action">
           <div className="cta-title">The Wonder Resort</div>
@@ -22,6 +23,7 @@ function App() {
       <Food/>
       <Slider/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import meat from '../../assets/meat.jpg';
 
 function Food() {
     return (
-      <div className="food">
+      <div className="food" id="food">
         <div className="food-row">
             <div className="food-images">
                 <div className="food-img-container"><img src={fish} alt="fish meal" /></div>

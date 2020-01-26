@@ -4,7 +4,7 @@ import './Contact.css';
 
 function Contact () {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
             <div className="contact-text">
                 <span className="contact-section">Contact us</span>
                 <div className="food-title">For Bookings or Queries?</div>
