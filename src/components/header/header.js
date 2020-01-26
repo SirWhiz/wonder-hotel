@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-
 import { Link } from "react-scroll";
+
+import MobileMenu from '../mobileMenu/MobileMenu';
+
 import './header.css';
 
 class Header extends Component {
@@ -8,7 +10,8 @@ class Header extends Component {
     constructor(){
         super();
         this.state = {
-            scrolled: false
+            scrolled: false,
+            mobileEnabled: false
         };
     }
 
@@ -27,9 +30,18 @@ class Header extends Component {
         window.removeEventListener('scroll');
     }
 
+    toggleMobileMenu = () => {
+        this.setState({ mobileEnabled: !this.state.mobileEnabled });
+        console.log(this.state.mobileEnabled);
+    }
+
     render(){
+
+        let mobileMenu;
+        this.state.mobileEnabled ? mobileMenu = <MobileMenu toggle={this.toggleMobileMenu} /> : mobileMenu = "";
+
         return (
-            <div className={this.state.scrolled ? 'header scrolled' : 'header'}>
+            <div className={this.state.scrolled && !this.state.mobileEnabled ? 'header scrolled' : 'header'}>
                 <header>
                     <div className="header-menu">
                         <Link className="test" to="home" smooth={true} offset={-70}>Home</Link>
@@ -44,9 +56,10 @@ class Header extends Component {
                         <button>Book Your Room</button>
                     </div>
                     <div className="mobile-button">
-                        <i className="fas fa-bars fa-2x clickable"></i>
+                        <i className="fas fa-bars fa-2x clickable" onClick={this.toggleMobileMenu}></i>
                     </div>
                 </header>
+                {mobileMenu}
             </div>
         );
     }
